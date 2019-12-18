@@ -12,11 +12,7 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(short_words)
-  short_words.any? do |i|
-    if i.count > 4
-      true 
-    end 
-  end
+  short_words.any? {|i| i.count > 4}
 end
 
 def find_the_cheese# code an argument here
