@@ -15,9 +15,7 @@ def long_planeteer_calls(short_words)
   short_words.each do |i|
     if i.split(" ") > 4
       true 
-    else 
-      false 
-  end 
+    end 
   end
 end
 
